@@ -4,7 +4,7 @@ __Video Stabilization using Deep Learning based Optical Flow__ is an open source
 
 Tensorflow 1.10
 
-## how to run ##
+## How to run ##
 
 set the path of stabilized video and unstabilized video in config.py file and run main_flownetS_pyramid_noprevloss_dataloader.py
 For example, if you want to train, run
@@ -15,6 +15,11 @@ If you want to test, put a checkpoint file into fixed_ckpt folder and run
 ```
 python3 main_flownetS_pyramid_noprevloss_dataloader.py --mode main_flownetS_pyramid_noprevloss_dataloader --is_train false --delete_log false
 ```
+
+## Result ##
+Upper images: input, lower images: output.
+![Example](images/result.png)  
+
 ## License ##
 This software is being made available under the terms in the [LICENSE](LICENSE) file.
 
