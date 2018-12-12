@@ -20,6 +20,9 @@ python3 main_flownetS_pyramid_noprevloss_dataloader.py --mode main_flownetS_pyra
 Upper images: input, lower images: output.
 ![Example](images/result.png)  
 
+## Checkpoint ##
+checkpoint link: [link](https://drive.google.com/open?id=1rAK3ABuCNwx5Yzen8QvhmLeIIsbrQR4X)
+
 ## License ##
 This software is being made available under the terms in the [LICENSE](LICENSE) file.
 
